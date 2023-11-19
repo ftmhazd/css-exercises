@@ -1,15 +1,16 @@
 p{
-    background-color: rgb(red, green, rgb(229, 151, 179));
+    background-color:  rgb(229, 151, 179);
     font-family: Verdana, 'DeJaVu Sans', sans-serif;
 }
 
 #blue-text{
-    color: rgb(red, green, rgb(38, 120, 214));
+    color: blue;
     font-size: 36px;
 }
 #green-bg{
-    background-color: rgb(red, green, rgb(139, 243, 129));
+    background-color: rgb(139, 243, 129);
     font-size: 24px;
+    font-weight: bold;
 }
 .font-24{
     font-size: 24px;
