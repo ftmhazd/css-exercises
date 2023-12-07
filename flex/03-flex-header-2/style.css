@@ -5,13 +5,16 @@ you'll learn about it later. */
 body {
   margin: 0;
   background: #eee;
-  font-family: Besley, serif;
+  font-family: serif;
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
 }
 
 .profile-image {
@@ -35,6 +38,8 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin: 20px;
+  margin-left:  auto;
 }
 
 a {
@@ -45,4 +50,8 @@ a {
 
 ul {
   list-style-type: none;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
 }
+
